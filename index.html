@@ -1,90 +1,98 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Ben Young</title>
-    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ben's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="resources/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="body-container">
-
-        <nav class="navbar">
-          <a href="#">Home</a>
-          <a href="#">My Work</a>
-          <a href="#">Services</a>
-          <a href="#">About Me</a>
-          <a href="#">Contact</a>
-        </nav>
-
-      <div class="hero-container">
-        <div>
-          <h1 class="hero-title">Hi,<br />I'm Ben&mdash;<br />web developer.</h1>
-          <h2 class="hero-subhead">Front End Developer / Analytics Ninja</h2>
-        </div>
-
-        <div class="circle">
-        </div>
+    <header>
+      <div class="flex-col-center">
+        <img src="resources/images/me.png" alt="Ben Young" class="profile-pic">
+        <h1 class="page-head">Ben Young</h1>
+        <h2 class="page-subhead">Front-End Developer</h2>
       </div>
+    </header>
+    <main>
 
-      <h1 class="section-title">Featured Work</h1>
+      <!-- About me section -->
+      <section>
+        <h2>About Me</h2>
+        <p>I'm an aspiring front-end developer with an eye for design.</p>
+        <p>I've taken two paid CodeCademy courses for certification:</p>
+        <ul>
+          <li>Build Websites from Scratch <a href="https://www.credential.net/07833487-a023-4aea-a364-f7eba8113795" target="_blank">see certification</a></li>
+          <li>Build Front-End Web Apps from Scratch <a href="https://www.credential.net/dd1d0224-056f-4242-8254-c43c9ce18d64" target="_blank">see certification</a></li>
+        </ul>
 
-      <div class="featured-flex">
-        <div class="thumbnail"></div>
-        <div class="description">
-          <h3>Periodic Table</h3>
-          <p>Showcases organization of information plus design.</p>
+        <p>I have created tools to use in my science classroom (interactive periodic table) and taught high school students web development.</p>
+        <p>I'm currently working an event website which I designed it in Sketch App and am collaborating with a back-end developer inside of Ruby on Rails, using a Git client.</p>
+
+        <h3>Languages:</h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Sass</li>
+          <li>jQuery</li>
+          <li>JavaScript</li>
+          <li>HAML</li>
+        </ul>
+      </section>
+
+      <!-- Projects / my work / demos -->
+      <section>
+        <h2>Interactive Periodic Table</h2>
+        <a href="https://balexyoung.github.io/periodic-table/" target="_blank"><img src="resources/images/periodic-screenshot.png" alt="screenshot of periodic table" class="thumbnail"></a><br>
+        <a href="https://balexyoung.github.io/periodic-table/" target="_blank">View Project</a>
+        <h3>Details:</h3>
+        <ul>
+          <li>Developed for TV monitors to teach science students about chemistry.</li>
+          <li>Showcases my ability to structure and organize complex sets of information using HTML and CSS.</li>
+          <li>Toggle options allow users to highlight or remove styles and information on the table.</li>
+          <li>All of the interactive elements were done with JavaScript and jQuery.</li>
+        </ul>
+      </section>
+
+      <!-- Teaching web dev portfolio -->
+      <section>
+        <h2>Teaching Web Development</h2>
+        <div class="flex-row">
+          <div>
+            <h3>Design Spec</h3>
+            <img src="resources/images/calorieCat-iPhone8-mock.png" alt="design mock iPhone 8" class="web-dev-phone-img">
+          </div>
+          <div>
+            <h3 class="remove-on-mobile">Completed</h3>
+            <img src="resources/images/calorieCat-iPhone8.png" alt="design iPhone 8" class="web-dev-phone-img remove-on-mobile">
+          </div>
         </div>
-      </div>
+      </section>
 
-      <div class="featured-flex">
-        <div class="thumbnail"></div>
-        <div class="description">
-          <h3>Monica Antonio Photography</h3>
-          <p>Showcases a focus on photography plus design.</p>
-        </div>
-      </div>
+      <!-- Misc. Code Pens -->
+      <section>
+        <h2>Misc. Interactive Elements</h2>
+        <p class="codepen" data-height="350" data-theme-id="light" data-default-tab="result" data-user="balexyoung" data-slug-hash="OJPxyJb" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="jQuery slideToggle dropdown">
+          <span>See the Pen <a href="https://codepen.io/balexyoung/pen/OJPxyJb">
+          jQuery slideToggle dropdown</a> by Ben Young (<a href="https://codepen.io/balexyoung">@balexyoung</a>)
+          on <a href="https://codepen.io">CodePen</a>.</span>
+        </p>
+        <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
-      <div class="featured-flex" id="no-border">
-        <div class="thumbnail"></div>
-        <div class="description">
-          <h3>Reach Guru</h3>
-          <p>Showcases an agency layout template with a focus on services plus design.</p>
-        </div>
-      </div>
+        <br>
 
-  </div>
-  <div class="green-background">
-    <div class="body-container">
-      <h1 class="section-title" id="white-text">Services</h1>
+        <p class="codepen" data-height="280" data-theme-id="light" data-default-tab="result" data-user="balexyoung" data-slug-hash="jOEGaJe" style="height: 260px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="pac video image overlay">
+        <span>See the Pen <a href="https://codepen.io/balexyoung/pen/jOEGaJe">
+        pac video image overlay</a> by Ben Young (<a href="https://codepen.io/balexyoung">@balexyoung</a>)
+        on <a href="https://codepen.io">CodePen</a>.</span>
+        </p>
+        <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+      </section>
 
-      <div class="skills-flex">
-        <div class="skills">
-          <h4>HTML & CSS</h4>
-          <p>Build websites from scratch or use a template.</p>
-        </div>
-        <div class="skills">
-          <h4>JavaScript</h4>
-          <p>Make your website interactive or collect information.</p>
-        </div>
-        <div class="skills" id="no-border">
-          <h4>Analytics</h4>
-          <p>Install and provide data tracking services, report templates and analysis.</p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-  <div class="body-container">
-    <div class="about">
-      <h1 class="section-title">About Me</h1>
-    </div>
-    <div>
-      <h1 class="section-title">Contact</h1>
-      <p>Phone:</p>
-      <p>Email:</p>
-    </div>
-  </div>
+    </main>
+    <footer>
+    </footer>
 
   </body>
 </html>
