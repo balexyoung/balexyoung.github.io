@@ -1,0 +1,104 @@
+html {
+  color: #414344;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #FB7A14;
+  font-weight: 500;
+}
+
+body {
+  margin: 20px;
+}
+
+main, header {
+  margin: auto;
+  max-width: 620px;
+}
+
+section {
+  border-top: 2px solid #868E96;
+  margin: 40px 0;
+}
+
+.flex-col-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.profile-pic {
+  width: 200px;
+  height: auto;
+}
+
+.page-head {
+  font-weight: 700;
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.page-subhead {
+  color: #FB7A14;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.thumbnail {
+  width: 280px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.web-dev-phone-img {
+  max-width: 300px;
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  .remove-on-mobile {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .web-dev-phone-img {
+    max-width: 280px;
+    margin-right: 0;
+  }
+}
+
+/* @media only screen and (min-width: 375px) {
+  .thumbnail {
+    width: 260px;
+  }
+} */
+
+@media only screen and (min-width: 375px) {
+  .thumbnail {
+    width: 335px;
+  }
+}
+
+@media only screen and (min-width: 425px) {
+  .thumbnail {
+    width: 385px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .thumbnail {
+    width: 620px;
+  }
+}
